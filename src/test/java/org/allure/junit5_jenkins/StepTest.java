@@ -1,4 +1,4 @@
-package org.allure.junit_jenkins;
+package org.allure.junit5_jenkins;
 
 import io.qameta.allure.Allure;
 import io.qameta.allure.Step;
