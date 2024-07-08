@@ -20,6 +20,9 @@ public class StepTest {
             step.parameter("parameter", localParameter);
             Allure.step(String.format("Nested lambda step with global parameter [%s]", GLOBAL_PARAMETER));
         });
+
+        // intentional failure
+        assert(false)
     }
 
     @Step("Parent annotated step with parameter [{parameter}]")
