@@ -22,7 +22,7 @@ public class StepTest {
         });
 
         // intentional failure
-        assert(false)
+        assert(false);
     }
 
     @Step("Parent annotated step with parameter [{parameter}]")
