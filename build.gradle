@@ -45,6 +45,9 @@ dependencies {
     testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine"
 
     testImplementation "org.slf4j:slf4j-simple:2.0.12"
+
+    testImplementation 'com.codeborne:selenide:7.3.1'
+    testImplementation 'io.qameta.allure:allure-selenide:2.27.0'
 }
 
 test {
